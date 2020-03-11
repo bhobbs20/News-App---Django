@@ -9,3 +9,6 @@ def home(request):
         'title': title,
     }
     return render(request, 'home.html', context)
+
+def about(request):
+    return render(request, 'about.html')
